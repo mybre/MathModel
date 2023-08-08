@@ -1,0 +1,18 @@
+clear all;close all;clc;
+Image=im2double(imread('house.png'));
+Image=rgb2gray(Image);
+figure,imshow(Image),title('Ô­Í¼Ïñ');
+BW= edge(Image,'sobel');
+figure,imshow(BW),title('±ßÔµ¼ì²â');
+H1=[-1 -2 -1;0 0 0;1 2 1];
+H2=[-1 0 1;-2 0 2;-1 0 1];
+R1=imfilter(Image,H1);
+R2=imfilter(Image,H2);
+edgeImage=abs(R1)+abs(R2);
+figure,imshow(edgeImage),title('SobelÌÝ¶ÈÍ¼Ïñ');
+sharpImage=Image+edgeImage;
+figure,imshow(sharpImage),title('SobelÈñ»¯Í¼Ïñ');
+% imwrite(Image,'Ô­Í¼Ïñ.jpg');
+% imwrite(BW,'±ßÔµ¼ì²â.jpg');
+% imwrite(edgeImage,'SobelÌÝ¶ÈÍ¼Ïñ.jpg');
+% imwrite(sharpImage,'SobelÈñ»¯Í¼Ïñ.jpg');

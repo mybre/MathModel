@@ -1,0 +1,161 @@
+{
+  "main": {
+    "id": "1025ed4fd59a96a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ee76427bafd85d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "400b912e58f74755",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Matlab/图像处理/4.jpg"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "65c59ae830d1e95e",
+    "type": "split",
+    "children": [
+      {
+        "id": "285e7b3838e474fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62c2c551b741fee3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7dcf3ae345040976",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7b95f51b5605dfc0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cec412891dfe8701",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce1a018639bb8a3a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0db115cddfb4c1b8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Matlab/图像处理/4.jpg",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0569f6e1351f8617",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Matlab/图像处理/4.jpg",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8f5eb7ebb4797c7d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2138fa14af1a2e73",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Matlab/图像处理/4.jpg"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "62c2c551b741fee3",
+  "lastOpenFiles": [
+    "数学建模算法与应用笔记.md",
+    "Matlab/初始化matlab程序.md",
+    "Matlab/图像处理/3.jpg",
+    "Matlab/图像处理/2.jpg",
+    "Matlab/图像处理/1.jpg",
+    "README.md",
+    "Matlab/第1讲 MATLAB入门.pdf",
+    "lingo/lingo.md",
+    "lingo/LINGO的语法规定.md",
+    "数学建模算法与应用（第2版） (司守奎 孙兆亮) (Z-Library).pdf",
+    "数学建模算法与应用习题解答.pdf"
+  ]
+}

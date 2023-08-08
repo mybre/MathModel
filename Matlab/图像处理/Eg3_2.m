@@ -1,0 +1,11 @@
+clear all;close all;clc;
+Before=imread('clock2.gif');
+Back=imread('clock1.gif');
+result=imabsdiff(Before,Back);
+result2=imsubtract(Before,Back);
+% imwrite(result*5,'相减取绝对值结果.jpg');
+% imwrite(result2*5,'直接相减结果.jpg');
+subplot(221),imshow(Back),title('后聚焦图');
+subplot(222),imshow(Before),title('前聚焦图');
+subplot(223),imshow(result*5),title('相减取绝对值结果');
+subplot(224),imshow(result2*5),title('直接相减结果');

@@ -1,0 +1,20 @@
+a1=imread('xigua.jpg');
+a2=im2double(a1);%将灰度图像a1转换为双精度
+b=rgb2gray(a2);%将RGB图像a2转换为灰度图像
+[thr,sorh,keepapp]=ddencmp('den','wv',b);%求取对信号进行小波消噪处理的默认阈值、软阈值，并且保留低频系数
+c=wdencmp('gbl',b,'sym4',2,thr,sorh,keepapp);%去噪或者压缩
+figure,imshow(c),title('消噪后图像');
+d=medfilt2(c,[7 7]);%中值滤波
+figure,imshow(d),title('中值滤波');
+isuo=imresize(d,0.25,'bicubic');%改变图像的大小，对图形进行缩放
+es=edge(isuo,'sobel');%边缘检测
+ec=edge(isuo,'canny');
+figure,imshow(isuo);
+title('前期处理图像');
+imwrite(isuo,'前期处理图像。.jpg');
+figure,imshow(es);
+title('soble算子');
+imwrite(es,'Soble.jpg');
+figure,imshow(ec);
+title('canny算子');
+imwrite(ec,'canny.jpg');

@@ -1,0 +1,12 @@
+clear all;close all;clc;
+Im=imread('cameraman.tif');
+HImage=flipdim(Im,2);
+VImage=flipdim(Im,1);
+CImage=flipdim(HImage,1);
+% imwrite(HImage,'Ë®Æ½¾µÏñ.jpg');
+% imwrite (VImage,'´¹Ö±¾µÏñ.jpg');
+% imwrite(CImage,'¶Ô½Ç¾µÏñ.jpg');
+subplot(221),imshow(Im),title('Ô­Í¼');
+subplot(222),imshow(HImage),title('Ë®Æ½¾µÏñ');
+subplot(223),imshow(VImage),title('´¹Ö±¾µÏñ');
+subplot(224),imshow(CImage),title('¶Ô½Ç¾µÏñ');
