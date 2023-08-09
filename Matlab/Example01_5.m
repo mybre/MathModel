@@ -8,5 +8,5 @@ a = [a,-a];
 
 b = [-2,-1,-1/2];
 
-[y,z] = linprog(c,a,b,[],[],zeros(8,1));
-x = y(1:4) - y(5:end);
+[y,z] = linprog(c,a,b,[],[],zeros(8,1))
+x = y(1:4) - y(5:end)

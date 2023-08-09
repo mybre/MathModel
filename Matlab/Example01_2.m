@@ -5,4 +5,5 @@ b = [-10;12];
 aeq = [1,1,1];
 beq = 7;
 [x,y] = linprog(f,a,b,aeq,beq,zeros(3,1));
-x,y = -y
+x
+y = -y
