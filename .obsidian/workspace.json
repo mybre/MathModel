@@ -11,9 +11,11 @@
             "id": "400b912e58f74755",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Matlab/图像处理/4.jpg"
+                "file": "代码分析.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -67,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "cec412891dfe8701",
@@ -84,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matlab/图像处理/4.jpg",
+                "file": "代码分析.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matlab/图像处理/4.jpg",
+                "file": "代码分析.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,16 +125,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matlab/图像处理/4.jpg"
+                "file": "代码分析.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -145,17 +146,24 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "62c2c551b741fee3",
+  "active": "400b912e58f74755",
   "lastOpenFiles": [
+    "README.md",
+    "lingo/lingo.md",
+    "mock01_3_lingo.txt",
+    "mock01_3_result.txt",
+    "lingo/LINGO的语法规定.md",
+    "lingo/注意事项.md",
+    "代码分析.md",
+    "2",
+    "1",
+    "Matlab/图像处理/4.jpg",
     "数学建模算法与应用笔记.md",
     "Matlab/初始化matlab程序.md",
     "Matlab/图像处理/3.jpg",
     "Matlab/图像处理/2.jpg",
     "Matlab/图像处理/1.jpg",
-    "README.md",
     "Matlab/第1讲 MATLAB入门.pdf",
-    "lingo/lingo.md",
-    "lingo/LINGO的语法规定.md",
     "数学建模算法与应用（第2版） (司守奎 孙兆亮) (Z-Library).pdf",
     "数学建模算法与应用习题解答.pdf"
   ]
